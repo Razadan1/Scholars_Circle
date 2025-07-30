@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scholar's Circle School</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Scholar's Circle</h2>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#events" class="nav-link">Events</a>
+          <a href="#staff" class="nav-link">Staff</a>
+          <a href="#leadership" class="nav-link">Leadership</a>
+          <a href="#admission" class="nav-link">Admission</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Scholar's Circle School</h1>
+        <p>
+          PROVIDING QUALITATIVE AND CONTEMPORARY WESTERN AND ISLAMIC SCIENCE
+          BASED EDUCATION
+        </p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">About Us</a>
+          <a href="#gallery" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="admission-alert">
+        <i class="fas fa-graduation-cap"></i>
+        <a href="#admission">ADMISSION IN PROGRESS - Apply Today!</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Scholar's Circle</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Scholars' Circle School stands as a distinguished beacon of educational excellence, deeply rooted in Islamic values and dedicated to nurturing young minds. Established with a vision to cultivate future leaders, the school combines a rigorous academic curriculum with a strong emphasis on character development, spiritual growth, and moral integrity. 
+            </p>
+          <div class="about-image">
+            <img
+              src="images/trophy.jpg"
+              alt="School Building"
+            />
+          </div>
+        </div>
+        <div class="about-text">
+            <p>
+              As an Islamic institution, we integrate the teachings of the Qur'an and Sunnah into every aspect of education, fostering a holistic environment where faith and knowledge harmoniously coexist.Our comprehensive academic programs span a wide range of subjects, designed to meet international standards while preserving cultural and religious identity.
+          <div class="about-image">
+            <img
+              src="images/interhouse sport.jpg"
+              alt="School Building"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="images/activity.jpg"
+              alt="Classroom"
+            />
+            <div class="gallery-overlay">
+              <h3>Sport Activities</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/class1.jpg"
+              alt="Classroom Activities"
+            />
+            <div class="gallery-overlay">
+              <h3>Classroom Activities</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/green house.jpg"
+              alt="Sports"
+            />
+            <div class="gallery-overlay">
+              <h3>Interhouse Sports</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/outing2.jpg"
+              alt="Excursion"
+            />
+            <div class="gallery-overlay">
+              <h3>Excursions and Outings</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/fun2.JPG"
+              alt="Arts"
+            />
+            <div class="gallery-overlay">
+              <h3>Arts & Crafts</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/class5.jpg"
+              alt="Computer Lab"
+            />
+            <div class="gallery-overlay">
+              <h3>Computer Lab</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+      <div class="container">
+        <h2>Past Events</h2>
+        <!-- <div class="events-tabs">
+          <button class="tab-btn active" onclick="showEvents('upcoming')">
+            Upcoming Events
+          </button>
+          <button class="tab-btn" onclick="showEvents('past')">
+            Past Events
+          </button>
+        </div> -->
+
+        <div id="upcoming-events" class="events-content active">
+                 <div class="event-card">
+            <div class="event-date">
+              <span class="day">10</span>
+              <span class="month">April</span>
+            </div>
+  
+            <div class="event-info">
+              <h3>Interhouse Sport Competition</h3>
+              <p>
+                The annual interhouse sports competition where students compete in various sports events. 
+              </p>
+              <span class="event-time"
+                ><i class="fas fa-trophy"></i> Maiden Biennal InterhouseSport</span
+              >
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="day">05</span>
+              <span class="month">March</span>
+            </div>
+            <div class="event-info">
+              <h3>Cultural Day</h3>
+              <p>
+                A vibrant celebration of arts, music, and cultural diversity
+                with student performances.
+              </p>
+              <span class="event-time"
+                ><i class="fas fa-music"></i> Cultural Event</span
+              >
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="day">27</span>
+              <span class="month">MAY</span>
+            </div>
+            <div class="event-info">
+              <h3>Children's Day</h3>
+              <p>
+                The Children's Day celebration fun activities, games, and
+                educational activities for kids.
+              </p>
+              <span class="event-time"
+                ><i class="fas fa-users"></i> Fun Event</span
+              >
+            </div>
+          </div>
+          <!-- <div class="event-card">
+            <div class="event-date">
+              <span class="day">15</span>
+              <span class="month">DEC</span>
+            </div>
+            <div class="event-info">
+              <h3>Annual Sports Day</h3>
+              <p>
+                Join us for our annual sports competition featuring various
+                athletic events and competitions.
+              </p>
+              <span class="event-time"
+                ><i class="fas fa-clock"></i> 9:00 AM - 4:00 PM</span
+              >
+            </div>
+          </div>
+
+         
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="day">25</span>
+              <span class="month">DEC</span>
+            </div>
+            <div class="event-info">
+              <h3>Christmas Celebration</h3>
+              <p>
+                Festive celebration with carol singing, performances, and gift
+                exchange.
+              </p>
+              <span class="event-time"
+                ><i class="fas fa-clock"></i> 11:00 AM - 3:00 PM</span
+              >
+            </div>
+          </div>
+        </div> -->
+
+        <div id="past-events" class="events-content">
+        </div>
+      </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section id="staff" class="staff">
+      <div class="container">
+        <h2>MEET THE ADMINS</h2>
+        <div class="staff-grid">
+          <div class="staff-card">
+            <img
+              src="images/Mrs Sanusi.jpg"
+              alt=""
+            />
+            <div class="staff-info">
+              <h3>Mrs. Sanusi Fauzat Olubukola</h3>
+              <p>Director Of Studies</p>
+            </div>
+          </div>
+
+         <div class="staff-card">
+            <img
+              src="images/MrIsiac.jpg"
+              alt="Manager"
+            />
+            <div class="staff-info">
+              <h3>Mr. Isiac  </h3>
+              <p>Manager</p>
+            </div>
+          </div>
+
+          <div class="staff-card">
+            <img
+              src="images/Mr Idris.jpg"
+              alt="Head of Academics"
+            />
+            <div class="staff-info">
+              <h3>Mr. Idris Makinde</h3>
+              <p>Deputy Manager</p>
+            </div>
+          </div>
+
+          <div class="staff-card">
+            <img
+              src="images/Mrs Arowosaye.jpg"
+              alt="High School Admin"
+            />
+            <div class="staff-info">
+              <h3>Mrs. Arowosaye</h3>
+              <p>High School Admin</p>
+            </div>
+          </div>
+
+          
+          <div class="staff-card">
+            <img
+              src="images/Miss Zainab.jpg"
+              alt="Admin"
+            />
+            <div class="staff-info">
+              <h3>Miss Zainab </h3>
+              <p>Admin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+      <div class="container">
+        <h2>Student Leadership</h2>
+        <div class="leadership-sections">
+          <div class="leadership-group">
+            <h3>Secondary Section</h3>
+            <div class="leaders">
+              <div class="staff-card">
+                <img
+                  src="images/HeadBoyS.jpg"
+                />
+                <div class="leader-info">
+              <h3>Hassan Sulton </h3>
+              <h4>Head Boy</h4>
+            </div>
+                
+              </div>
+              <div class="leader-card">
+                <img
+                  src="images/HeadGirlS.jpg"
+                  alt="Head Boy Senior"
+                />
+              <div class="leader-info">
+              <h3>Razaq Hameedah</h3>
+              <h4>Head Girl</h4>
+            </div>
+              </div>
+              
+            </div>
+          </div>
+           <div class="leadership-group">
+            <h3>Primary Section</h3>
+            <div class="leaders">
+              <div class="leader-card">
+                <img
+                  src="images/HeadBoyP.jpg"
+                  alt="Head Boy Primary"
+                />
+              <div class="leader-info">
+              <h3>Abdulazeez Yusuf</h3>
+              <h4>Head Boy</h4>
+            </div>
+                
+              </div>
+              <div class="leader-card">
+                <img
+                  src="images/HeadGirlP.jpg"
+                  alt="Head Girl Primary"
+                />
+              <div class="leader-info">
+              <h3>Abdul Afeez Hameedah</h3>
+              <h4>Head Girl</h4>
+            </div>
+              </div>
+              
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="admission">
+      <div class="container">
+        <div class="admission-content">
+          <div class="admission-info">
+            <h2>Admission in Progress</h2>
+            <p>
+              Join Scholar's Circle School and be part of an educational journey
+              that prepares you for success in life.
+            </p>
+
+            <div class="admission-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Academic Excellence</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Modern Facilities</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Experienced Faculty</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Extracurricular Activities</span>
+              </div>
+            </div>
+
+            <div class="admission-requirements">
+              <h3>Admission Requirements:</h3>
+              <ul>
+                <li>Completed application form</li>
+                <li>Previous academic records</li>
+                <li>Birth certificate</li>
+                <li>Medical certificate</li>
+                <li>Passport-size photographs</li>
+              </ul>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>6, Adiatu Lawanson Close, Alapere Ketu. Lagos</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+234 8177765176</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:scholarscircleschools@gmail.com"> scholarscircleschools@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Office Hours</h4>
+                <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Scholar's Circle School</h3>
+            <p>Excellence in Education, Character, and Leadership</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#admission">Admissions</a></li>
+              <li><a href="#staff">Faculty</a></li>
+              <li><a href="#events">Events</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Programs</h4>
+            <ul>
+              <li><a href="#">Elementary</a></li>
+              <li><a href="#">Middle School</a></li>
+              <li><a href="#">High School</a></li>
+              <li><a href="#">Extracurricular</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>
+              <i class="fas fa-phone"></i> +234 8177765176 | +234 9052609910
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i> <a href="mailto:scholarscircleschools@gmail.com"> scholarscircleschools@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 6, Adiatu Lawanson Close,
+              Alapere Ketu. Lagos
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Scholar's Circle School. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

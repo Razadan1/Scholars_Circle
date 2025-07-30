@@ -1,0 +1,22 @@
+
+{
+  "name": "scholars-circle-school",
+  "version": "1.0.0",
+  "description": "Official website for Scholar's Circle School",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "school",
+    "education",
+    "website",
+    "scholars-circle"
+  ],
+  "author": "Scholar's Circle School",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
